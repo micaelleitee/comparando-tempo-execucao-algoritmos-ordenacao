@@ -16,7 +16,3 @@ def merge(lista,inicio, meio, fim):
     else:
       lista[i] = direita[topo_direita]
       topo_direita = topo_direita + 1
-
-lista = [38, 27, 43, 3, 9, 82, 10]
-mergesort(lista, 0, len(lista))
-print(lista)
