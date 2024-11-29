@@ -23,7 +23,7 @@ def max_heapify(lista, i):
 def construir (lista):
   tamanho_lista = len(lista)
   for i in range ((tamanho_lista //2) -1, -1, -1):
-    max_heapify(lista, i,)
+    max_heapify(lista, i)
 
 def heapsort(lista):
   construir(lista)
