@@ -2,6 +2,7 @@ import time
 import matplotlib.pyplot as plt
 from mergesort import mergesort
 from heapsort import heapsort
+from quicksort import quicksort
 import random
 
 
