@@ -7,6 +7,7 @@ import random
 
 x = [100,200,300]
 lista_m = []
+lista_h = []
 for i in range(len(x)):
   lista = []
   for j in range(x[i]):
@@ -18,12 +19,12 @@ for i in range(len(x)):
   fim_merge = time.time()*1000
   delta_merge = fim_merge-inicio_merge
   lista_m.append(delta_merge)
-  print(lista_m)
   inicio_heap = time.time()*1000
-  heapsort(lista2)
+  heapsort(lista3)
   fim_heap = time.time()*1000
   delta_heap = fim_heap-inicio_heap
-  
+  lista_h.append(delta_heap)
 
 plt.plot(x,lista_m)
+plt.plot(x,lista_h)
 plt.show()
